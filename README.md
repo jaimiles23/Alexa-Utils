@@ -168,7 +168,16 @@ SSML are implemented as individual text wrappers so that wrappers can be applied
 MW_EXCITED_MED.format("Oh No!") + "Don't throw that away, please."
 ```
 
-NOTE:
+### TODO
+
+#### Reconsider the SSML tag structure
+Create an exhaustive list of SSML wrappers. 
+
 May like to implement a class with dictionary structure to access SSML levels.
 Reference [pyssml](https://github.com/sumsted/pyssml/blob/master/pyssml/PySSML.py)
+
+
+#### Add tests to PyPI
+https://python-packaging.readthedocs.io/en/latest/testing.html
+
 
