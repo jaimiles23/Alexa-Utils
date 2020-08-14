@@ -1,6 +1,6 @@
 # AlexaUtils
 
-AlexaUtils is a PyPi with utility classes and functions to supplement the Python AWS SDK for Alexa skill development. 
+[AlexaUtils](https://pypi.org/project/alexautils/0.0.1/) is a PyPI with utility classes and functions to supplement the Python AWS SDK for Alexa skill development. 
 
 
 ## Installation
