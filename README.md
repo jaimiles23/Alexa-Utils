@@ -1,6 +1,6 @@
 # AlexaUtils
 
-[AlexaUtils](https://pypi.org/project/alexautils/0.0.1/) is a PyPI with utility classes and functions to supplement the Python AWS SDK for Alexa skill development. 
+Library with utility classes and functions to supplement the Python AWS SDK for Alexa skill development. Available on here PyPI: [AlexaUtils](https://pypi.org/project/alexautils/0.0.1/)
 
 
 ## Installation
@@ -169,15 +169,12 @@ MW_EXCITED_MED.format("Oh No!") + "Don't throw that away, please."
 ```
 
 ### TODO
+1. Create an exhaustive list of SSML wrappers. 
+   1. May like to implement a class with dictionary structure to access SSML levels. Reference [pyssml](https://github.com/sumsted/pyssml/blob/master/pyssml/PySSML.py)
+2. Add tests to PyPI
+   1. https://python-packaging.readthedocs.io/en/latest/testing.html
+3. Add CardFuncs module
 
-#### Reconsider the SSML tag structure
-Create an exhaustive list of SSML wrappers. 
 
-May like to implement a class with dictionary structure to access SSML levels.
-Reference [pyssml](https://github.com/sumsted/pyssml/blob/master/pyssml/PySSML.py)
-
-
-#### Add tests to PyPI
-https://python-packaging.readthedocs.io/en/latest/testing.html
 
 
