@@ -54,6 +54,7 @@ Per convention, this module should be imported separately as ssml:
 
 ## Classes & Functions
 
+<br>
 
 ### SlotUtils Class
 Utility class with methods to retrieve slots from user utterance.
@@ -74,6 +75,7 @@ Returns first slot value from captured values.
 
 Returns resolved value for the slot.
 
+<br>
 
 ### Pauser Class
 Utility class to create pauses in speech response.
@@ -106,6 +108,7 @@ Returns list of the arguments to be added to speech_list.
 
 Transforms all int/float args into p_levels then adds to the list.
 
+<br>
 
 ### Linear Natural Language Generation - Function
 > linear_nlg(tuple_message_clause: tuple, str_joiner: str = ' ') -> str: 
@@ -165,6 +168,7 @@ The speech construction for the above noun phrase yields 12 response permutation
 "A yellow cat"
 ```
 
+<br>
 
 ### Logger Functions
 > logger> 
@@ -178,6 +182,9 @@ Decorator to log.debug the function name.
 > log_all(*args, log_level: int = 10) -> None:
 
 Logs all arguments at log_level keyword.
+
+
+<br>
 
 ### ssml_tags data
 Alexa's voice user interface uses Speech Synthesis Markup Language to control the speech output. SSML reference available [here](https://developer.amazon.com/en-US/docs/alexa/custom-skills/speech-synthesis-markup-language-ssml-reference.html)
