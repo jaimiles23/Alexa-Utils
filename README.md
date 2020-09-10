@@ -8,7 +8,7 @@ Library with utility classes and functions to supplement the Python AWS SDK for 
   - [Classes & Functions](#classes--functions)
     - [SlotUtils Class](#slotutils-class)
     - [Pauser Class](#pauser-class)
-    - [linear_nlg Function](#linear_nlg-function)
+    - [Linear Natural Language Generation - Function](#linear-natural-language-generation---function)
     - [Logs Functions](#logs-functions)
     - [ssml_tags data](#ssml_tags-data)
   - [TODO List](#todo-list)
@@ -99,7 +99,7 @@ Returns list of the arguments to be added to speech_list.
 Transforms all int/float args into p_levels then adds to the list.
 
 
-### linear_nlg Function
+### Linear Natural Language Generation - Function
 **linear_nlg(tuple_message_clause: tuple, str_joiner: str = ' ') -> str**
 
 Returns message constructed from tuple message clause.
