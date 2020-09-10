@@ -9,7 +9,7 @@ Library with utility classes and functions to supplement the Python AWS SDK for 
     - [SlotUtils Class](#slotutils-class)
     - [Pauser Class](#pauser-class)
     - [Linear Natural Language Generation - Function](#linear-natural-language-generation---function)
-    - [Logs Functions](#logs-functions)
+    - [Logger Functions](#logger-functions)
     - [ssml_tags data](#ssml_tags-data)
   - [TODO List](#todo-list)
 
@@ -158,7 +158,7 @@ The speech construction for the above noun phrase yields 12 response permutation
 ```
 
 
-### Logs Functions
+### Logger Functions
 **logger**
 
 log_level set by Lambda environment variable `log_level`
