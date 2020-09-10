@@ -6,11 +6,11 @@ Library with utility classes and functions to supplement the Python AWS SDK for 
   - [Installation](#installation)
   - [Imports](#imports)
   - [Classes & Functions](#classes--functions)
-    - [SlotUtils](#slotutils)
-    - [Pauser](#pauser)
-    - [linear_nlg](#linear_nlg)
-    - [Logs](#logs)
-    - [ssml_tags](#ssml_tags)
+    - [SlotUtils Class](#slotutils-class)
+    - [Pauser Class](#pauser-class)
+    - [linear_nlg Function](#linear_nlg-function)
+    - [Logs Functions](#logs-functions)
+    - [ssml_tags data](#ssml_tags-data)
   - [TODO List](#todo-list)
 
 
@@ -47,7 +47,7 @@ Per convention, this module should be imported separately as ssml:
 ## Classes & Functions
 
 
-### SlotUtils
+### SlotUtils Class
 Utility class with methods to retrieve slots from user utterance.
 
 **get_slot_val_by_name(handler_input, slot_name: str) -> str:**
@@ -67,7 +67,7 @@ Returns first slot value from captured values.
 Returns resolved value for the slot.
 
 
-### Pauser
+### Pauser Class
 Utility class to create pauses in speech response.
 
 **get_pause(pause_length: float = 1) -> str:**
@@ -99,7 +99,7 @@ Returns list of the arguments to be added to speech_list.
 Transforms all int/float args into p_levels then adds to the list.
 
 
-### linear_nlg
+### linear_nlg Function
 **linear_nlg(tuple_message_clause: tuple, str_joiner: str = ' ') -> str**
 
 Returns message constructed from tuple message clause.
@@ -158,7 +158,7 @@ The speech construction for the above noun phrase yields 12 response permutation
 ```
 
 
-### Logs
+### Logs Functions
 **logger**
 
 log_level set by Lambda environment variable `log_level`
@@ -171,7 +171,7 @@ Decorator to log.debug the function name.
 
 Logs all arguments at log_level keyword.
 
-### ssml_tags
+### ssml_tags data
 Alexa's voice user interface uses Speech Synthesis Markup Language to control the speech output. SSML reference available [here](https://developer.amazon.com/en-US/docs/alexa/custom-skills/speech-synthesis-markup-language-ssml-reference.html)
 
 SSML are implemented as individual text wrappers so that wrappers can be applied to separate phrases, e.g.:
