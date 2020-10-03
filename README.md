@@ -24,7 +24,7 @@ pip install alexautils
 ```
 
 <br>
-<a href = "alexautils"> :arrow_up: Table of Contents</a>
+<a href = "#alexautils"> :arrow_up: Table of Contents</a>
 <br>
 <br>
 
@@ -48,7 +48,7 @@ Per convention, this module should be imported separately as ssml:
 ```
 
 <br>
-<a href = "alexautils"> :arrow_up: Table of Contents</a>
+<a href = "#alexautils"> :arrow_up: Table of Contents</a>
 <br>
 <br>
 
@@ -189,7 +189,7 @@ MW_EXCITED_MED.format("Oh No!") + "Don't throw that away, please."
 ```
 
 <br>
-<a href = "alexautils"> :arrow_up: Table of Contents</a>
+<a href = "#alexautils"> :arrow_up: Table of Contents</a>
 <br>
 <br>
 
@@ -201,4 +201,4 @@ MW_EXCITED_MED.format("Oh No!") + "Don't throw that away, please."
 3. Add CardFuncs module
 
 <br>
-<a href = "alexautils"> :arrow_up: Table of Contents</a>
+<a href = "#alexautils"> :arrow_up: Table of Contents</a>
